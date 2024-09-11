@@ -1,0 +1,67 @@
+<PAMDataset>
+  <Metadata domain="ESRI">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <Metadata domain="xml:ESRI" format="xml">
+    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/10.0">
+      <PolynomialOrder>1</PolynomialOrder>
+      <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
+        <WKT>PROJCS[&quot;NAD_1983_UTM_Zone_17N&quot;,GEOGCS[&quot;GCS_North_American_1983&quot;,DATUM[&quot;D_North_American_1983&quot;,SPHEROID[&quot;GRS_1980&quot;,6378137.0,298.257222101]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Transverse_Mercator&quot;],PARAMETER[&quot;False_Easting&quot;,500000.0],PARAMETER[&quot;False_Northing&quot;,0.0],PARAMETER[&quot;Central_Meridian&quot;,-81.0],PARAMETER[&quot;Scale_Factor&quot;,0.9996],PARAMETER[&quot;Latitude_Of_Origin&quot;,0.0],UNIT[&quot;Meter&quot;,1.0],AUTHORITY[&quot;EPSG&quot;,26917]]</WKT>
+        <XOrigin>-5120900</XOrigin>
+        <YOrigin>-9998100</YOrigin>
+        <XYScale>450445547.3910538</XYScale>
+        <ZOrigin>-100000</ZOrigin>
+        <ZScale>10000</ZScale>
+        <MOrigin>-100000</MOrigin>
+        <MScale>10000</MScale>
+        <XYTolerance>0.001</XYTolerance>
+        <ZTolerance>0.001</ZTolerance>
+        <MTolerance>0.001</MTolerance>
+        <HighPrecision>true</HighPrecision>
+        <WKID>26917</WKID>
+      </SpatialReference>
+      <CoeffX xsi:type="typens:ArrayOfDouble">
+        <Double>623650.83343924128</Double>
+        <Double>0.36466819021416308</Double>
+        <Double>-0.1131743758997884</Double>
+      </CoeffX>
+      <CoeffY xsi:type="typens:ArrayOfDouble">
+        <Double>4837315.2447925052</Double>
+        <Double>0.11764595695760253</Double>
+        <Double>0.36275390669643898</Double>
+      </CoeffY>
+      <InverseCoeffX xsi:type="typens:ArrayOfDouble">
+        <Double>-5313842.9395537628</Double>
+        <Double>2.4914533300911246</Double>
+        <Double>0.77730017654219374</Double>
+      </InverseCoeffX>
+      <InverseCoeffY xsi:type="typens:ArrayOfDouble">
+        <Double>-11611627.136992188</Double>
+        <Double>-0.80801172867603832</Double>
+        <Double>2.5046009432716585</Double>
+      </InverseCoeffY>
+    </GeodataXform>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <NoDataValue>2.56000000000000E+002</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>255.5</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>410|156|159|247|326|467|746|881|2123|2067|6709|3652|14439|4453|7591|3861|4081|3534|3897|4113|4907|5925|7356|9079|11659|14262|18808|22783|29631|35405|45638|52769|66537|74927|92625|102464|122999|134695|157847|169863|193967|203263|226866|234293|255579|262767|280532|284781|295716|299731|309289|314247|321074|324606|329104|329606|334388|332450|333394|332280|330827|325198|322930|318844|315550|309639|305648|299609|294722|289665|283919|279652|273439|270241|266057|260560|257277|252558|248373|244489|241780|237449|232996|230641|226761|223263|220832|216929|213164|211726|209273|207814|206163|203661|201866|200131|197818|196893|195752|193772|192275|191372|191276|189406|189205|187868|186803|186910|187401|186033|187201|187056|189175|188893|191592|189499|191661|188557|189898|185380|185166|182502|184204|179901|182547|177942|178860|173662|173488|168891|167121|165202|164421|163120|161209|158989|158337|158058|156965|156473|155790|155452|154743|154592|154014|153631|153908|153946|154454|154578|154779|155959|156375|156849|157634|158819|159393|158568|160858|160621|162095|163217|163570|164490|165674|165966|167590|167455|168394|168614|168895|167782|168141|167592|167260|163787|163687|161298|160014|157021|155831|153026|151248|148363|146377|144975|142705|140301|138353|136570|135374|133208|132011|130065|129359|129449|126845|127276|126620|126031|125510|125502|126304|125989|126604|127742|128451|129802|130577|132075|133859|135250|137712|139271|142667|143369|146320|147309|151762|151535|153843|154493|157583|156836|160605|158918|163139|161739|166173|165389|172285|169410|177280|175565|187813|182509|202740|190015|223454|199784|254769|210400|309513|217726|346123|214626|443697|202531|511122|181593|593797|160221|1382248|121789|1424467|195160</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">141.59792733171</MDI>
+      <MDI key="STATISTICS_STDDEV">71.654314470733</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
