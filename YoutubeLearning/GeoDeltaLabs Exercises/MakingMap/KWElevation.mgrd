@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE></DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="9.5.1">
+    <TOOL library="shapes_grid" id="7" name="Clip Grid with Polygon">
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid System">
+        <CELLSIZE>0.0002777777777778</CELLSIZE>
+        <XMIN>-81</XMIN>
+        <YMIN>43</YMIN>
+        <XMAX>-79.9999999999999</XMAX>
+        <YMAX>44.00000000000008</YMAX>
+      </OPTION>
+      <OPTION type="choice" id="EXTENT" name="Target Extent" index="1">polygons</OPTION>
+      <INPUT_LIST type="grid_list" id="INPUT" name="Input" system="PARAMETERS_GRID_SYSTEM">
+        <INPUT type="grid_list" id="INPUT" name="Input" system="PARAMETERS_GRID_SYSTEM">
+          <FILE>C:/Users/mukto/AppData/Local/Temp/processing_JAqSmk/0d253c90b83e47e68db8081e4eed434b/N43W081hgt.sgrd</FILE>
+        </INPUT>
+      </INPUT_LIST>
+      <INPUT type="shapes" id="POLYGONS" name="Polygons">
+        <FILE>C:/Users/mukto/AppData/Local/Temp/processing_JAqSmk/d5c3c4e880f5431fa4490d5dfeaa4772/POLYGONS.shp</FILE>
+      </INPUT>
+      <OUTPUT type="grid_list" id="OUTPUT" name="Output">N43W081hgt</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <WKT1>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</WKT1>
+    <PROJ>+proj=longlat +datum=WGS84 +no_defs +type=crs</PROJ>
+    <CODE authority="EPSG">4326</CODE>
+  </PROJECTION>
+</SAGA_METADATA>
